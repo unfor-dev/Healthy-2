@@ -5,18 +5,18 @@ export default function Overlay() {
     <div className="container">
       <header>
         <div className="brand">
-          <img src="brand.svg" />
+          <img src="brand.svg" alt="Healthy brand logo" />
           <p>
             BIOTECH <strong>HEALTH</strong>
           </p>
         </div>
-        <div className='header-nav'>
+        <nav className="header-nav">
           <ul>
             <li>Learn</li>
             <li>Numbers</li>
             <li>Engage</li>
           </ul>
-        </div>
+        </nav>
         <button>KNOW MORE</button>
       </header>
 
@@ -96,14 +96,14 @@ export default function Overlay() {
           <h3>The time is now</h3>
           <p>The path is forward</p>
           <div className="social">
-            <img src="instagram.svg" width={30} />
-            <img src="youtube.svg" width={30} />
-            <img src="linkedin.svg" width={30} />
+            <img src="instagram.svg" width={30} alt="Instagram" />
+            <img src="youtube.svg" width={30} alt="YouTube" />
+            <img src="linkedin.svg" width={30} alt="LinkedIn" />
           </div>
-          <p className="copyright">Copyright © 2025. All rights reserved.</p>
+          <p className="copyright">Copyright © 2025</p>
         </div>
         <div className="footer-right">
-          <img src="brand.svg" width={60} />
+          <img src="brand.svg" width={60} alt="Healthy brand logo" />
 
           <ul>
             <li>Privacy policy</li>

@@ -6,6 +6,7 @@ export default function CameraRig({ children }) {
   const groupRef = useRef()
 
   useFrame((state, delta) => {
+    if (!groupRef.current) return
     easing.damp3(
       groupRef.current.rotation,
       [

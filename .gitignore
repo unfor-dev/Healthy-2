@@ -1,1 +1,7 @@
 node_modules
+build/
+.vercel/
+.claude/
+.env
+.DS_Store
+*.log
